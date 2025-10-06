@@ -181,7 +181,11 @@ def create_model(input_shape, bt_strategy=True, branch_neurons=128, att_neurons=
 if __name__ == '__main__':
     # Load data
     data_path = os.environ.get('SM_CHANNEL_TRAINING', '/opt/ml/input/data/training')
-    with open(f'{data_path}/dados_32x32.pkl', 'rb') as f:
+    pkl_file = os.path.join(data_path, 'dados_32x32.pkl')
+    print(f'Loading data from: {pkl_file}')
+    print(f'Files in {data_path}: {os.listdir(data_path)}')
+    
+    with open(pkl_file, 'rb') as f:
         data = pickle.load(f)
         x_train = data['x_train']
         y_train = data['y_train']
@@ -204,8 +208,10 @@ if __name__ == '__main__':
     model, callbacks = create_model(input_shape, bt_strategy=True, branch_neurons=128, att_neurons=128)
 
     # Train
-    batch_size = int(os.environ.get('SM_HP_BATCH_SIZE', 128))
-    epochs = int(os.environ.get('SM_HP_EPOCHS', 100))
+    batch_size = int(os.environ.get('SM_HP_BATCH_SIZE', '128'))
+    epochs = int(os.environ.get('SM_HP_EPOCHS', '100'))
+    print(f'Training with batch_size={batch_size}, epochs={epochs}')
+    print(f'Train shape: {x_train.shape}, Test shape: {x_test.shape}')
     
     model.fit(
         x_train,
