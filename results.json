@@ -3790,5 +3790,309 @@
         "cons": 0.7795918367346939,
         "f1": 0.6286504233627095,
         "score": 0.6286504233627095
+    },
+    {
+        "params": {
+            "batch_size": 128,
+            "branch_neurons": 16,
+            "att_neurons": 4056,
+            "learning_rate_init": 0.001,
+            "momentum": 0.95,
+            "optimizer": "adam",
+            "nesterov": false,
+            "bt_strategy": true
+        },
+        "acc": 0.3871428571428571,
+        "cons": 0.9557142857142857,
+        "f1": 0.7423381747678491,
+        "score": 0.7423381747678491
+    },
+    {
+        "params": {
+            "batch_size": 128,
+            "branch_neurons": 16,
+            "att_neurons": 4056,
+            "learning_rate_init": 0.001,
+            "momentum": 0.95,
+            "optimizer": "adam",
+            "nesterov": false,
+            "bt_strategy": false
+        },
+        "acc": 0.13551020408163264,
+        "cons": 0.573265306122449,
+        "f1": 0.4586178068830988,
+        "score": 0.4586178068830988
+    },
+    {
+        "params": {
+            "batch_size": 128,
+            "branch_neurons": 16,
+            "att_neurons": 4056,
+            "learning_rate_init": 0.0001,
+            "momentum": 0.9,
+            "optimizer": "sgd",
+            "nesterov": true,
+            "bt_strategy": true
+        },
+        "acc": 0.0,
+        "cons": 0.0,
+        "f1": 0.28993197278911564,
+        "score": 0.28993197278911564
+    },
+    {
+        "params": {
+            "batch_size": 128,
+            "branch_neurons": 16,
+            "att_neurons": 4056,
+            "learning_rate_init": 0.0001,
+            "momentum": 0.9,
+            "optimizer": "sgd",
+            "nesterov": true,
+            "bt_strategy": false
+        },
+        "acc": 0.8222448979591837,
+        "cons": 0.9693877551020408,
+        "f1": 0.9219674807810055,
+        "score": 0.9219674807810055
+    },
+    {
+        "params": {
+            "batch_size": 128,
+            "branch_neurons": 16,
+            "att_neurons": 4056,
+            "learning_rate_init": 0.0001,
+            "momentum": 0.9,
+            "optimizer": "sgd",
+            "nesterov": false,
+            "bt_strategy": true
+        },
+        "acc": 0.0,
+        "cons": 0.08530612244897959,
+        "f1": 0.27687074829931974,
+        "score": 0.27687074829931974
+    },
+    {
+        "params": {
+            "batch_size": 128,
+            "branch_neurons": 16,
+            "att_neurons": 4056,
+            "learning_rate_init": 0.0001,
+            "momentum": 0.9,
+            "optimizer": "sgd",
+            "nesterov": false,
+            "bt_strategy": false
+        },
+        "acc": 0.7804081632653062,
+        "cons": 0.9453061224489796,
+        "f1": 0.9019354399809518,
+        "score": 0.9019354399809518
+    },
+    {
+        "params": {
+            "batch_size": 128,
+            "branch_neurons": 16,
+            "att_neurons": 4056,
+            "learning_rate_init": 0.0001,
+            "momentum": 0.9,
+            "optimizer": "adam",
+            "nesterov": true,
+            "bt_strategy": true
+        },
+        "acc": 0.4259183673469388,
+        "cons": 0.8816326530612245,
+        "f1": 0.768843537414966,
+        "score": 0.768843537414966
+    },
+    {
+        "params": {
+            "batch_size": 128,
+            "branch_neurons": 16,
+            "att_neurons": 4056,
+            "learning_rate_init": 0.0001,
+            "momentum": 0.9,
+            "optimizer": "adam",
+            "nesterov": true,
+            "bt_strategy": false
+        },
+        "acc": 0.8114285714285714,
+        "cons": 0.9606122448979592,
+        "f1": 0.9161167426355533,
+        "score": 0.9161167426355533
+    },
+    {
+        "params": {
+            "batch_size": 128,
+            "branch_neurons": 16,
+            "att_neurons": 4056,
+            "learning_rate_init": 0.0001,
+            "momentum": 0.9,
+            "optimizer": "adam",
+            "nesterov": false,
+            "bt_strategy": true
+        },
+        "acc": 0.47285714285714286,
+        "cons": 0.9230612244897959,
+        "f1": 0.7934013605442177,
+        "score": 0.7934013605442177
+    },
+    {
+        "params": {
+            "batch_size": 128,
+            "branch_neurons": 16,
+            "att_neurons": 4056,
+            "learning_rate_init": 0.0001,
+            "momentum": 0.9,
+            "optimizer": "adam",
+            "nesterov": false,
+            "bt_strategy": false
+        },
+        "acc": 0.8369387755102041,
+        "cons": 0.976938775510204,
+        "f1": 0.92846208796816,
+        "score": 0.92846208796816
+    },
+    {
+        "params": {
+            "batch_size": 128,
+            "branch_neurons": 16,
+            "att_neurons": 4056,
+            "learning_rate_init": 0.0001,
+            "momentum": 0.95,
+            "optimizer": "sgd",
+            "nesterov": true,
+            "bt_strategy": true
+        },
+        "acc": 0.0012244897959183673,
+        "cons": 0.04204081632653061,
+        "f1": 0.3576609404823876,
+        "score": 0.3576609404823876
+    },
+    {
+        "params": {
+            "batch_size": 128,
+            "branch_neurons": 16,
+            "att_neurons": 4056,
+            "learning_rate_init": 0.0001,
+            "momentum": 0.95,
+            "optimizer": "sgd",
+            "nesterov": true,
+            "bt_strategy": false
+        },
+        "acc": 0.7795918367346939,
+        "cons": 0.9561224489795919,
+        "f1": 0.9038402666757372,
+        "score": 0.9038402666757372
+    },
+    {
+        "params": {
+            "batch_size": 128,
+            "branch_neurons": 16,
+            "att_neurons": 4056,
+            "learning_rate_init": 0.0001,
+            "momentum": 0.95,
+            "optimizer": "sgd",
+            "nesterov": false,
+            "bt_strategy": true
+        },
+        "acc": 0.14387755102040817,
+        "cons": 0.45510204081632655,
+        "f1": 0.654262194707123,
+        "score": 0.654262194707123
+    },
+    {
+        "params": {
+            "batch_size": 128,
+            "branch_neurons": 16,
+            "att_neurons": 4056,
+            "learning_rate_init": 0.0001,
+            "momentum": 0.95,
+            "optimizer": "sgd",
+            "nesterov": false,
+            "bt_strategy": false
+        },
+        "acc": 0.8228571428571428,
+        "cons": 0.9855102040816327,
+        "f1": 0.9235688288717303,
+        "score": 0.9235688288717303
+    },
+    {
+        "params": {
+            "batch_size": 128,
+            "branch_neurons": 16,
+            "att_neurons": 4056,
+            "learning_rate_init": 0.0001,
+            "momentum": 0.95,
+            "optimizer": "adam",
+            "nesterov": true,
+            "bt_strategy": true
+        },
+        "acc": 0.47061224489795916,
+        "cons": 0.9553061224489796,
+        "f1": 0.776530612244898,
+        "score": 0.776530612244898
+    },
+    {
+        "params": {
+            "batch_size": 128,
+            "branch_neurons": 16,
+            "att_neurons": 4056,
+            "learning_rate_init": 0.0001,
+            "momentum": 0.95,
+            "optimizer": "adam",
+            "nesterov": true,
+            "bt_strategy": false
+        },
+        "acc": 0.7565306122448979,
+        "cons": 0.9612244897959183,
+        "f1": 0.8981494080827324,
+        "score": 0.8981494080827324
+    },
+    {
+        "params": {
+            "batch_size": 128,
+            "branch_neurons": 16,
+            "att_neurons": 4056,
+            "learning_rate_init": 0.0001,
+            "momentum": 0.95,
+            "optimizer": "adam",
+            "nesterov": false,
+            "bt_strategy": true
+        },
+        "acc": 0.529795918367347,
+        "cons": 0.9912244897959184,
+        "f1": 0.7968027210884354,
+        "score": 0.7968027210884354
+    },
+    {
+        "params": {
+            "batch_size": 128,
+            "branch_neurons": 16,
+            "att_neurons": 4056,
+            "learning_rate_init": 0.0001,
+            "momentum": 0.95,
+            "optimizer": "adam",
+            "nesterov": false,
+            "bt_strategy": false
+        },
+        "acc": 0.8293877551020408,
+        "cons": 0.9773469387755102,
+        "f1": 0.9259498622402123,
+        "score": 0.9259498622402123
+    },
+    {
+        "params": {
+            "batch_size": 128,
+            "branch_neurons": 32,
+            "att_neurons": 2048,
+            "learning_rate_init": 0.001,
+            "momentum": 0.9,
+            "optimizer": "sgd",
+            "nesterov": true,
+            "bt_strategy": true
+        },
+        "acc": 0.8028571428571428,
+        "cons": 0.9777551020408163,
+        "f1": 0.9157823129251701,
+        "score": 0.9157823129251701
     }
 ]
